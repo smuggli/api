@@ -1,0 +1,19 @@
+{
+  "name": "api",
+  "description": "api",
+  "homepage": "https://github.com/smuggli/Api",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Stephan Muggli",
+      "email": "stephan.muggli@googlemail.com"
+    }
+  ],
+  "require": {
+    "php": "7.*",
+    "nikic/fast-route": "^1.1"
+  },
+  "autoload": {
+    "psr-4": {"Smuggli\\": "src/"}
+  }
+}
