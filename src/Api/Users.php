@@ -22,8 +22,8 @@ class Users implements ApiInterface
         return 'Users requested';
     }
 
-    public function getUser(array $id)
+    public function getUser(array $parameters)
     {
-        return var_export($id, true);
+        return var_export($parameters, true);
     }
 }
