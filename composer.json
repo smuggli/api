@@ -1,7 +1,7 @@
 {
   "name": "api",
   "description": "api",
-  "homepage": "https://github.com/smuggli/Api",
+  "homepage": "https://github.com/smuggli/api",
   "type": "library",
   "authors": [
     {
@@ -10,7 +10,7 @@
     }
   ],
   "require": {
-    "php": "7.*",
+    "php": "^7.1",
     "nikic/fast-route": "^1.1"
   },
   "autoload": {
